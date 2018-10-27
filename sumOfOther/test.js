@@ -26,5 +26,4 @@ describe('sumOfOther', () => {
     const array = sumOfOther([100]);
     assert.deepEqual(array, [0]);
   }); 
- 
-  });
+ });
