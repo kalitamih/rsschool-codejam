@@ -6,6 +6,7 @@ module.exports = function recursion(tree) {
     else levels[level].push(node.value);
     createArray(node.left, level + 1);
     createArray(node.right, level + 1);
+    return null;
   };
   createArray(tree, 0);
   return levels;
