@@ -1,13 +1,25 @@
 const assert = require('assert');
 const recursion = require('./recursion.js');
 
-const tree = { value: 100, left: { value: 90, left: { value: 70 }, right: { value: 99 } }, right: { value: 120, left: { value: 110 }, right: { value: 130 } } };
+const tree = {
+  value: 100,
+  left: { value: 90, left: { value: 70 }, right: { value: 99 } },
+  right: { value: 120, left: { value: 110 }, right: { value: 130 } },
+};
 
-const tree2 = { value: 100, left: { value: 90, left: { value: 70 }, right: { value: 99 } }, right: { value: 120, left: { value: 110 } } };
+const tree2 = {
+  value: 100,
+  left: { value: 90, left: { value: 70 }, right: { value: 99 } },
+  right: { value: 120, left: { value: 110 } },
+};
 
 const tree3 = { value: 100 };
 
-const tree4 = { value: 100, left: { value: 87, left: { value: 70 }, right: { value: 90 } }, right: { value: 120, left: { value: 110 }, right: { value: 1900 } } };
+const tree4 = {
+  value: 100,
+  left: { value: 87, left: { value: 70 }, right: { value: 90 } },
+  right: { value: 120, left: { value: 110 }, right: { value: 1900 } },
+};
 
 describe('recursion', () => {
   it('1', () => {
