@@ -1,0 +1,11 @@
+{
+  "name": "make",
+  "version": "1.0.0",
+  "description": "Lets's\u001b['s do it",
+  "main": "make.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
