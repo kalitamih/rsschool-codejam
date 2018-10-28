@@ -1,0 +1,11 @@
+{
+  "name": "recursion",
+  "version": "1.0.0",
+  "description": "let's do recursion",
+  "main": "recursion.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
