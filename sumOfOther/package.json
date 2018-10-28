@@ -1,0 +1,11 @@
+{
+  "name": "sumofothers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
